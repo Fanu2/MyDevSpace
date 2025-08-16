@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My GitHub & Deployed Projects</title>
+</head>
+<body>
+  <h1>GitHub Repositories</h1>
+  <ul id="repo-list"></ul>
+
+  <h2>Deployed Projects</h2>
+  <ul>
+    <li><a href="https://your-streamlit-app-url">My Streamlit App</a></li>
+    <li><a href="https://your-vercel-project-url">My Vercel Project</a></li>
+  </ul>
+
+  <script>
+    fetch("https://api.github.com/users/Fanu2/repos")
+      .then(res => res.json())
+      .then(repos => {
+        const list = document.getElementById('repo-list');
+        repos.forEach(repo => {
+          const item = document.createElement('li');
+          item.innerHTML = `<a href="${repo.html_url}">${repo.name}</a>`;
+          list.appendChild(item);
+        });
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jasvir-singh1021 | Hugging Face Spaces</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    nav a { margin-right: 15px; text-decoration: none; color: #0052cc; }
+    .profile img { width: 70px; border-radius: 50%; vertical-align: middle; }
+    .profile { margin-top: 20px; }
+    .spaces-list { list-style: none; padding: 0; margin-top: 20px; }
+    .spaces-list li { padding: 8px 0; border-bottom: 1px solid #ddd; }
+    .status { font-weight: bold; margin-right: 8px; }
+    .status.running { color: green; }
+    .status.error { color: red; }
+    .pagination { margin-top: 15px; }
+    .pagination a { margin-right: 10px; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#">Models</a>
+    <a href="#">Datasets</a>
+    <a href="#">Spaces</a>
+    <a href="#">Community</a>
+    <a href="#">Docs</a>
+    <a href="#">Enterprise</a>
+    <a href="#">Pricing</a>
+    <a href="#">Log In</a>
+    <a href="#">Sign Up</a>
+  </nav>
+
+  <!-- Profile Section -->
+  <div class="profile">
+    <img src="https://huggingface.co/jasvir-singh1021.png" alt="User Avatar">
+    <h1>jasvir singh <small>(jasvir-singh1021)</small></h1>
+    <button>Follow</button>
+    <p>1 follower · 1 following</p>
+    <h3>AI & ML interests</h3>
+    <p>Research on AI large language models</p>
+  </div>
+
+  <!-- Recent Activity -->
+  <div class="recent-activity">
+    <h2>Recent Activity</h2>
+    <ul>
+      <li>Updated a Space <strong>chatGPT</strong> — 31 minutes ago</li>
+      <li>Published a Space <strong>chatGPT</strong> — about 1 hour ago</li>
+    </ul>
+  </div>
+
+  <!-- Spaces List -->
+  <div class="spaces">
+    <h2>Spaces (Projects)</h2>
+    <ul class="spaces-list">
+      <li><span class="status error">Runtime error</span>ChatGPT — 31 minutes ago</li>
+      <li><span class="status running">Running</span>canvas-studio — about 3 hours ago</li>
+      <li><span class="status error">Runtime error</span>FreeGPT Free GPT models — about 4 hours ago</li>
+      <li><span class="status running">Running</span>Literature Literature — about 13 hours ago</li>
+      <li><span class="status running">Running</span>Love Content Generator — about 15 hours ago</li>
+      <li><span class="status error">Runtime error</span>Romantic Status Generator — about 1 day ago</li>
+      <li><span class="status error">Runtime error</span>Generate 1000+ Hindi Quotes — about 2 days ago</li>
+      <li><span class="status running">Running</span>Music Recommendation App — about 3 days ago</li>
+      <li><span class="status">Sleeping</span>Mini AutoGPT — about 3 days ago</li>
+      <li><span class="status">Sleeping</span>Travel Blog Writer — about 4 days ago</li>
+    </ul>
+
+    <div class="pagination">
+      <a href="#">Previous</a>
+      <a href="#">Next</a>
+    </div>
+  </div>
+
+</body>
+</html>
